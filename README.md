@@ -1,7 +1,7 @@
 # dielectricInterfacesGeneralized
 This code implements the algorithm for applying the method of images to an arbitrary number of conducting/dielectric slabs described in [Haji-Akbari A, Shoemaker B. Ideal conductor/dielectric model (ICDM): A generalized technique to correct for finite-size effects in molecular simulations of hindered ion transport. ChemRxiv. Cambridge: Cambridge Open Engage; 2023 doi:10.26434/chemrxiv-2023-1mgbh]
 
-The basic usage is demonstrated in the function "testFunctionality.py" and described here.
+The basic usage is demonstrated in the function "testFunctionality()" and described here.
 
 --------------------------------------------------------------
 
