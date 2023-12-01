@@ -204,7 +204,7 @@ class domain():
         return(z,v)
                 
 
-    #As intended, this function does NOT include free charges added at the beginning, only image charges 
+    #This function returns all charges, image and free 
     def returnImageCharges(self):
         qAll = list()
         xAll = list()
@@ -217,12 +217,10 @@ class domain():
             yNew = list()
             zNew = list()
             for p in self.regions[i].pointCharges:
-                #if(not p.freeCharge):
-                if(True):
-                    qNew.append(p.q)
-                    xNew.append(p.x)
-                    yNew.append(p.y)
-                    zNew.append(p.z)
+                qNew.append(p.q)
+                xNew.append(p.x)
+                yNew.append(p.y)
+                zNew.append(p.z)
 
             qAll.append(qNew)
             xAll.append(xNew)
